@@ -1,0 +1,7 @@
+tasks:
+  - init: |
+      pip install -r requirements.txt
+      npm run build && python setup.py sdist
+
+    command:
+      python example.py
