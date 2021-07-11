@@ -1,7 +1,8 @@
 tasks:
   - init: |
-      pip install -r requirements.txt
-      npm run build && python setup.py sdist
-
+      pip install -r dev-requirements.txt
+      npm install && npm run build && python setup.py sdist
+      pip install dist/dash_table-*.tar.gz
+      pip install dash
     command:
       python example.py
