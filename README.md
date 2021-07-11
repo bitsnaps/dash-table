@@ -2,6 +2,9 @@
 
 An interactive `DataTable` for [Dash](https://dash.plotly.com/).
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/bitsnaps/dash-table/tree/gitpod-setup)
+
+
 :point_right: [Documentation](https://dash.plotly.com/datatable)
 
 ## Quickstart
